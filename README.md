@@ -102,7 +102,13 @@
 ```
 
 ---
-
+components/: Reusable UI components like Button, Icon, etc.
+config/: Configuration files for Firebase, theme, images, etc.
+hooks/: Custom hooks like useTogglePasswordVisibility.
+navigation/: Navigation stacks and navigators.
+providers/: Context providers like AuthenticatedUserProvider.
+screens/: Application screens like ForgotPasswordScreen, SignupScreen, etc.
+utils/: Utility functions and helpers.
 ## 🧩 Modules
 
 <details closed><summary>.</summary>
@@ -218,6 +224,16 @@ Build the project from source:
 ❯ npm install
 ```
 
+4. Create a `.env` file in the root directory and add your environment variables:
+    ```env
+    API_KEY="your_api_key"
+    AUTH_DOMAIN="your_auth_domain"
+    PROJECT_ID="your_project_id"
+    STORAGE_BUCKET="your_storage_bucket"
+    MESSAGING_SENDER_ID="your_messaging_sender_id"
+    APP_ID="your_app_id"
+    ```
+
 ### 🤖 Usage
 
 To run the project, execute the following command:
@@ -236,13 +252,7 @@ Execute the test suite using the following command:
 
 ---
 
-## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
----
 
 ## 🤝 Contributing
 
